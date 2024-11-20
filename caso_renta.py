@@ -62,7 +62,7 @@ try:
             y = np.round(predicciones[0], 2)
             
             # Mostrar resultados
-            st.success(f"El precio estimado del alquiler es: Bs {y[0]}")
+            st.success(f"El precio estimado del alquiler es: € {y[0]}")
         except Exception as e:
             st.error(f"Error al realizar la predicción: {e}")
 
